@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros con Café</title>
+    <link rel="stylesheet" href="../css/crear.css">
+    <link rel="icon" href="/img/cafe logo.ico">
+</head> 
+<body>
+    <div class="titulo">
+        <h1> Libros con café </h1>
+    </div>
+
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>    
+          <li><a href='../crearlibro/crearlibro.html'>Crear libro</a></li>
+          <li><a href='../solicitarlibro/solicitarlibro.html'target="_blank">Solicitar libro</a></li>
+          <li><a href='../entregalibros/entrega.html' target="_blank">Entregar libro</a></li>
+          <li><a href='../index.html' target="_blank">Salir</a></li>
+        </nav>
+   
+        <div class="cajapadre">
+  
+            <div class="perfil">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="Lista desplegable" class="listanom"></label>
+                            </td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">Santiago Gomez</option>
+                                    <option value="">Anthony Nino</option>
+                                    <option value="">Sofia Gonzales</option>
+                                    <option value="">Sara Ardila</option>
+                                    <option value="">Sara Camila</option>
+                                </select>
+                            </td>
+                        </tr>
+                       
+                    </table>
+                </form>
+            </div>
+            <div class="imgperfil">
+                <img src="../img/Koala.jpg" class="img1" alt="">
+            </div>             
+        </div>
+        
+        <h2>Crear libro(s)</h2>
+
+    <div class="formulario">
+
+            <form action="">
+
+            <table class="tablaformulario">
+                <tr>
+                    <td>
+                        <label for="">Titulo:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">Editorial:</label>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">...</option>
+                            <option value="">Editorial Mirahadas</option>
+                            <option value="">Editorial Sexto Piso</option>
+                            <option value="">Editorial Errata Naturae</option>
+                            <option value="">Editorial Pre-textos </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">Edición:</label>
+                    </td>
+                    <td>
+                        <input  type="text" name="" id="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">Área:</label>
+                    </td>
+                    <td>
+                        <input id="area" type="text" name="" id="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">ISBN:</label>
+                    </td>
+                    <td>
+                        <input id="isbn" type="text" name="" id="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">Número de páginas:</label>
+                    </td>
+                    <td>
+                        <input id="npag" type="number" name="" id="">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="">Estado</label>
+                    </td>
+                    <td>
+                        <select class="estado" name="" id="">
+                            <option value="">...</option>
+                            <option value="">Dañado</option>
+                            <option value="">Usado</option>
+                            <option value="">Nuevo</option>
+                        </select>
+                    </td>
+                </tr>   
+                <tr>
+                    <td><label for="Solicitar libro"></label>
+                    </td>
+                    <td><input class="solicitarlibro" type="submit" value="Guardar"></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+    <footer>
+        <h3>© Todos los derechos reservados</h3>
+        </footer>
+
+</body>
+
+
+
+</html>
